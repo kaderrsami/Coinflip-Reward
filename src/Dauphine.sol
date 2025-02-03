@@ -10,7 +10,8 @@ contract Dauphine is ERC20, Ownable {
         Ownable(initialOwner)
     {}
 
-    function mint(address to, uint256 amount) public onlyOwner {
+    // Remove the onlyOwner modifier to allow minting by any caller
+    function mint(address to, uint256 amount) public /* onlyOwner */ {
         _mint(to, amount);
     }
 }

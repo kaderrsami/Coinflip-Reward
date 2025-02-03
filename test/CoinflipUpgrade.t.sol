@@ -45,7 +45,7 @@ contract CoinflipUpgradeTest is Test {
     /////////////////////////////////////////////////////
 
     function test_V1Win() public {
-        assertEq(wrappedV1.UserInput([1,0,0,0,1,1,1,1,0,1]), true);
+        assertEq(wrappedV1.userInput([1,0,0,0,1,1,1,1,0,1], owner), true);
     }
 
     /////////////////////////////////////////////////////

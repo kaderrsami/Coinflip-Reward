@@ -1,0 +1,83 @@
+This was the output of my anvil deployement of the DAU coin:
+
+
+kader@SKY MINGW64 ~/Documents/UNI/M2 DE/courses/solidity/Coinflip-Reward (main)
+$ forge script script/DeployDauphine.s.sol --rpc-url http://localhost:8545 --broadcast
+[⠊] Compiling...
+No files changed, compilation skipped
+Script ran successfully.
+
+== Logs ==
+  Dauphine token deployed at: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+## Setting up 1 EVM.
+
+==========================
+
+Chain 31337
+
+Estimated gas price: 2.000000001 gwei
+
+Estimated total gas used for script: 785246
+
+Estimated amount required: 0.001570492000785246 ETH
+
+==========================
+
+##### anvil-hardhat
+✅  [Success] Hash: 0x73254dab2328d468bf6d59ae9e227454080973b65699269ba5752d7eb5c764fc
+Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Block: 1
+Estimated total gas used for script: 785246
+
+Estimated amount required: 0.001570492000785246 ETH
+
+==========================
+
+##### anvil-hardhat
+✅  [Success] Hash: 0x73254dab2328d468bf6d59ae9e227454080973b65699269ba5752d7eb5c764fc
+Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Block: 1
+
+==========================
+
+##### anvil-hardhat
+✅  [Success] Hash: 0x73254dab2328d468bf6d59ae9e227454080973b65699269ba5752d7eb5c764fc
+Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Block: 1
+##### anvil-hardhat
+✅  [Success] Hash: 0x73254dab2328d468bf6d59ae9e227454080973b65699269ba5752d7eb5c764fc
+Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Block: 1
+Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Block: 1
+Block: 1
+Paid: 0.000604036000604036 ETH (604036 gas * 1.000000001 gwei)
+
+✅ Sequence #1 on anvil-hardhat | Total Paid: 0.000604036000604036 ETH (604036 gas * avg 1.000000001 gwei)
+
+
+==========================
+
+✅ Sequence #1 on anvil-hardhat | Total Paid: 0.000604036000604036 ETH (604036 gas * avg 1.000000001 gwei)
+
+
+==========================
+
+
+==========================
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+
+Transactions saved to: C:/Users/kader/Documents/UNI/M2 DE/courses/solidity/Coinflip-Reward/broadcast\DeployDauphine.s.sol\31337\run-latest.json
+
+
+Sensitive values saved to: C:/Users/kader/Documents/UNI/M2 DE/courses/solidity/Coinflip-Reward/cache\DeployDauphine.s.sol\31337\run-latest.json
